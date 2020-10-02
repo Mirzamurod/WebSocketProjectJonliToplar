@@ -1,0 +1,13 @@
+{
+  "name": "jonliToplar",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Mirzamurod"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Mirzamurod/WebSocketProjectJonliToplar",
+  "dependencies": {
+    "angular": "^1.8.0"
+  }
+}
