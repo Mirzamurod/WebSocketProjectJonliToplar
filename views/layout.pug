@@ -1,9 +1,16 @@
-doctype html
 html
     head
         title= title
         meta(charset='UTF-8')
-        link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css')
-        link(rel='stylesheet' href='/stylesheets/style.css')
-    body
+        link(rel='stylesheet' href="/semantic/dist/semantic.css")
+        link(rel='stylesheet' href="/stylesheets/style.css")
+    body(ng-app="app")
         block content
+
+        block javascripts
+            script(src="/socket.io/socket.io.js")
+            script(src="/angular/angular.min.js")
+            script(src="/jquery/dist/jquery.min.js")
+            script(src="/javascripts/main.js")
+            script(src="/javascripts/services/indexFactory.js")
+            script(src="/javascripts/controller/indexController.js")
