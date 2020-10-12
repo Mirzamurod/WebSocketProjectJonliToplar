@@ -1,15 +1,15 @@
 {
-  "name": "jonliToplar",
-  "description": "",
-  "main": "app.js",
-  "authors": [
-    "Mirzamurod"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/Mirzamurod/WebSocketProjectJonliToplar",
-  "dependencies": {
-    "angular": "^1.8.0",
-    "semantic": "^2.4.1",
-    "jquery": "^3.5.1"
-  }
+    "name": "jonliToplar",
+    "description": "",
+    "main": "app.js",
+    "authors": [
+        "Mirzamurod"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/Mirzamurod/WebSocketProjectJonliToplar",
+    "dependencies": {
+        "angular": "^1.8.0",
+        "semantic": "^2.4.1",
+        "jquery": "^3.5.1"
+    }
 }
